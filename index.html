@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Undangan Pernikahan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Opening -->
+<div class="opening" id="opening">
+  <p>Undangan Pernikahan</p>
+  <h1>Rifky Ernanda<br>&<br>Hilmy Nur Athifah</h1>
+  <button onclick="buka()">Buka Undangan</button>
+</div>
+
+<!-- Musik -->
+<audio id="musik" loop>
+  <source src="musik.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Konten -->
+<div class="content" id="content">
+
+  <section class="hero">
+    <div class="overlay">
+      <h4>Wedding Invitation</h4>
+      <h1>Rifky & Hilmy</h1>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Mempelai Pria</h2>
+    <h3>Rifky Ernanda</h3>
+    <p>
+      Putra Pertama dari<br>
+      Bapak Mohamad Usup<br>
+      & Ibu Hernawati
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Mempelai Wanita</h2>
+    <h3>Hilmy Nur Athifah</h3>
+    <p>
+      Putri Pertama dari<br>
+      Bapak Ranto<br>
+      & Ibu Tuki
+    </p>
+  </section>
+
+  <section class="card dark">
+    <h2>Menuju Hari Bahagia</h2>
+    <div id="countdown"></div>
+  </section>
+
+  <footer>
+    <p>Terima kasih atas doa & restunya</p>
+    <small>© 2025 Rifky & Hilmy</small>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
